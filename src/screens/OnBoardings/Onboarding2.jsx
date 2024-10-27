@@ -5,14 +5,14 @@ import OnBackGround from '../../components/OnBoardings/OnBackGround'
 
 const Onboarding2 = ({navigation}) => {
   return (
-    <SafeAreaView className=" bg-[#101010] flex flex-1 flex-col gap-8 px-6 ">
+    <SafeAreaView className=" bg-[#101010] flex flex-1 flex-col gap-y-8 px-6 ">
         <StatusBar style={styles.status}/>
         {/* Image component */}
         <OnBackGround/>
         {/* Content  */}
         <View>
           <Text style={styles.safeContainer} className=" text-white font-semibold text-xl">Do you <Text className=" font-semibold text-xl text-[#4D2F76]">have any question</Text></Text>
-          <View className=" flex flex-row items-center gap-2">
+          <View className=" flex flex-row items-center gap-x-2">
             <Text className=" text-white font-semibold text-xl">About gender just ask</Text>
             <Text className=" font-semibold text-xl text-[#4D2F76]">Guardia</Text>
           </View>
