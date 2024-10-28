@@ -18,13 +18,13 @@ const Login = ({navigation}) => {
         </View>
 
         <View className=" flex flex-col gap-y-5">
-            <TextInput placeholder=' Email or Phone Number' className=" text-white placeholder:text-lg bg-[#1b1b25] py-4 rounded-xl pl-6"/>
-            <TextInput placeholder=' Password' className=" text-white placeholder:text-lg bg-[#1b1b25] py-4 rounded-xl pl-6"/>
+            <TextInput placeholder=' Email or Phone Number' placeholderTextColor={'white'} className=" text-white placeholder:text-lg bg-[#1b1b25] py-4 rounded-xl pl-6"/>
+            <TextInput placeholder=' Password' placeholderTextColor={"white"} className=" text-white placeholder:text-lg bg-[#1b1b25] py-4 rounded-xl pl-6"/>
         </View>
 
         <View>
             <TouchableOpacity className=" bg-[#371960] py-4 rounded-xl">
-                <Text className=" text-white text-center">Register</Text>
+                <Text className=" text-white text-center text-base">Login</Text>
             </TouchableOpacity>
         </View>
 
@@ -35,7 +35,7 @@ const Login = ({navigation}) => {
         </View>
 
         <View className=" flex flex-row items-center justify-center">
-            <Text className=" text-white">Don’t have any account  <Text className=" text-[#371960] text-lg" onPress={() => {navigation.navigate("Signup")}}>  Register</Text></Text>
+            <Text className=" text-white text-base">Don’t have any account  <Text className=" text-[#371960] text-lg" onPress={() => {navigation.navigate("Signup")}}>  Register</Text></Text>
         </View>
         
     </SafeAreaView>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const OnBackGround = () => {
   return (
-    <View>
+    <View className=" flex flex-col items-center justify-center pt-5">
       <Image source={require("../../../assets/OnBoardings/Onboardings.png")}/>
     </View>
   )
